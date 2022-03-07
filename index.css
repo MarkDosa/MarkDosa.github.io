@@ -1,13 +1,10 @@
-body,html {
-    padding:0px;
-    margin:0px;
-    font-family: 'Comfortaa', cursive;
-    font-weight:bold;
-    color:#fff;
-    background:rgb(0, 0, 0);
-    scroll-behavior: smooth;
-    text-align: center;
 
+
+
+body {
+  background: url('romani.gif') no-repeat center center fixed;
+    background-color: rgb(3, 3, 3);
+  background-size: contain;
 }
 @keyframes rotate {
     0% {transform: rotate(0deg);}
@@ -180,7 +177,7 @@ body,html {
     margin:6vh 0px;
 }
 .btn_social {
-    font-size:18px;
+    font-size:28px;
     color:#fff;
     margin:40px 20px;
     padding:15px 18px;
@@ -453,8 +450,7 @@ body {
   margin: 0;
 }
 
+}
     }
 }
-
-
 
