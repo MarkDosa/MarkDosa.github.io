@@ -1,5 +1,5 @@
 body {
-  background: url('romani.gif') no-repeat center center fixed;
+  background: url("romani.gif")no-repeat fixed center;
     background-color: rgb(3, 3, 3);
   background-size: contain;
 }
@@ -92,43 +92,8 @@ body {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
 }
-#contact form {
-    width:100%;
 
-}
-#contact form input {
-    width:46%;
-    margin:20px 1%;
-    background:transparent;
-    border:0px;
-    border-bottom:2px solid rgba(255,255,255,0.5);
-    padding:8px 10px;
-    font-family: 'Comfortaa', cursive;
-    font-size:18px;
-    transition:0.4s ease-in-out;
-    color:#fff;
-}
-#contact form textarea {
-    width:96%;
-    margin:20px 1%;
-    padding:8px 10px;
-    border:0px;
-    border-bottom:2px solid rgba(255,255,255,0.5);
-    padding:8px 10px;
-    font-family: 'Comfortaa', cursive;
-    font-size:18px;
-    background:transparent;
-    resize:none;
-    transition:0.4s ease-in-out;
-    color:#fff;
-}
-#contact form input:focus {
-    outline:none;
-    border-bottom:2px solid rgba(255,255,255,1);
-}
-#contact form textarea:focus {
-    outline:none;
-    border-bottom:2px solid rgba(255,255,255,1);
+
 }
 ::placeholder {
     color:#fff;
@@ -171,14 +136,18 @@ body {
     color:#fff;
 }
 #details {
-    margin:6vh 0px;
+    margin:0vh 2px;
+    padding:10px 50px;
+    border-radius:50px;
+    text-align:center;
+    
 }
 .btn_social {
     font-size:28px;
     color:#fff;
-    margin:40px 20px;
+    margin:0px 60px;
     padding:15px 18px;
-    border-radius:50%;
+    border-radius:0%;
     background:#000;
     transition:0.4s ease-in-out;
 }
@@ -450,4 +419,6 @@ body {
 }
     }
 }
+
+
 
